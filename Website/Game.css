@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+  }
+h2 {
+    text-align: center;
+    font-weight: normal;
+  }
+p{
+    text-align: center;  
+}
+
+.profile {
+    border-style: solid;
+    border-color:Black;
+    border-width: thick;
+    background-color:gray ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 360px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    margin: 25px auto 75px auto;
+  }
+.profile__details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+  }
+
+  .profile__image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+  }
